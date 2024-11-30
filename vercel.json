@@ -1,17 +1,8 @@
 {
     "rewrites": [
-      {
-        "source": "/fruits",
-        "destination": "/Tailwind/src/HTML/Fruits.html"
-      },
-      {
-        "source": "/vegetables",
-        "destination": "/Tailwind/src/HTML/Vegetables.html"
-      },
-      {
-        "source": "/(.*)",
-        "destination": "/Tailwind/src/HTML/index.html"
-      }
+        {
+            "source": "/(.*)",
+            "destination": "/Tailwind/src/HTML/index.html"
+        }
     ]
-  }
-  
+}
